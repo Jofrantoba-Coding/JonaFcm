@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.jofrantoba.fcm.http.TestHttpFcmConnection" time="2.581" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="regex.home" value="E:\graalvm-ce-java8-20.0.0\jre\languages\regex"/>
+    <property name="java.class.path" value="E:\MigrarIndiant\jonafcm\fcm-http\target\test-classes;E:\MigrarIndiant\jonafcm\fcm-http\target\classes;C:\Users\jona\.m2\repository\com\google\api-client\google-api-client\1.32.2\google-api-client-1.32.2.jar;C:\Users\jona\.m2\repository\com\google\oauth-client\google-oauth-client\1.32.1\google-oauth-client-1.32.1.jar;C:\Users\jona\.m2\repository\com\google\http-client\google-http-client-gson\1.40.1\google-http-client-gson-1.40.1.jar;C:\Users\jona\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\jona\.m2\repository\com\google\guava\guava\31.0.1-android\guava-31.0.1-android.jar;C:\Users\jona\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\jona\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jona\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jona\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\jona\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\jona\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\jona\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\jona\.m2\repository\com\google\http-client\google-http-client-apache-v2\1.40.1\google-http-client-apache-v2-1.40.1.jar;C:\Users\jona\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\jona\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jona\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jona\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jona\.m2\repository\com\google\http-client\google-http-client\1.40.1\google-http-client-1.40.1.jar;C:\Users\jona\.m2\repository\io\opencensus\opencensus-api\0.28.0\opencensus-api-0.28.0.jar;C:\Users\jona\.m2\repository\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\jona\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.28.0\opencensus-contrib-http-util-0.28.0.jar;E:\MigrarIndiant\jonafcm\fcm-entity\target\fcm-entity-1.0.0.jar;C:\Users\jona\.m2\repository\org\json\json\20210307\json-20210307.jar;E:\MigrarIndiant\jonafcm\fcm-entity\target\fcm-entity-1.0.0-sources.jar;E:\MigrarIndiant\jonafcm\fcm-shared\target\fcm-shared-1.0.0.jar;E:\MigrarIndiant\jonafcm\fcm-shared\target\fcm-shared-1.0.0-sources.jar;C:\Users\jona\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\jona\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\jona\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\jona\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.0-M1\junit-platform-launcher-1.8.0-M1.jar;C:\Users\jona\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\jona\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\jona\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jona\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\jona\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\jona\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\jona\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;C:\Users\jona\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.0-M1\junit-vintage-engine-5.8.0-M1.jar;C:\Users\jona\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\jona\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\jona\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\jona\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jona\.m2\repository\org\mockito\mockito-all\2.0.2-beta\mockito-all-2.0.2-beta.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="org.graalvm.version" value="20.0.0"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="nfi.home" value="E:\graalvm-ce-java8-20.0.0\jre\languages\nfi"/>
+    <property name="sun.boot.library.path" value="E:\graalvm-ce-java8-20.0.0\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\jona\AppData\Local\Temp\surefire7475912427822261282\surefirebooter4683796338470759562.jar C:\Users\jona\AppData\Local\Temp\surefire7475912427822261282 2021-10-30T15-59-32_697-jvmRun1 surefire5375544767445353411tmp surefire_06786256343423301068tmp"/>
+    <property name="surefire.test.class.path" value="E:\MigrarIndiant\jonafcm\fcm-http\target\test-classes;E:\MigrarIndiant\jonafcm\fcm-http\target\classes;C:\Users\jona\.m2\repository\com\google\api-client\google-api-client\1.32.2\google-api-client-1.32.2.jar;C:\Users\jona\.m2\repository\com\google\oauth-client\google-oauth-client\1.32.1\google-oauth-client-1.32.1.jar;C:\Users\jona\.m2\repository\com\google\http-client\google-http-client-gson\1.40.1\google-http-client-gson-1.40.1.jar;C:\Users\jona\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\jona\.m2\repository\com\google\guava\guava\31.0.1-android\guava-31.0.1-android.jar;C:\Users\jona\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\jona\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\jona\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jona\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\jona\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\jona\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\jona\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\jona\.m2\repository\com\google\http-client\google-http-client-apache-v2\1.40.1\google-http-client-apache-v2-1.40.1.jar;C:\Users\jona\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\jona\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\jona\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\jona\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\jona\.m2\repository\com\google\http-client\google-http-client\1.40.1\google-http-client-1.40.1.jar;C:\Users\jona\.m2\repository\io\opencensus\opencensus-api\0.28.0\opencensus-api-0.28.0.jar;C:\Users\jona\.m2\repository\io\grpc\grpc-context\1.27.2\grpc-context-1.27.2.jar;C:\Users\jona\.m2\repository\io\opencensus\opencensus-contrib-http-util\0.28.0\opencensus-contrib-http-util-0.28.0.jar;E:\MigrarIndiant\jonafcm\fcm-entity\target\fcm-entity-1.0.0.jar;C:\Users\jona\.m2\repository\org\json\json\20210307\json-20210307.jar;E:\MigrarIndiant\jonafcm\fcm-entity\target\fcm-entity-1.0.0-sources.jar;E:\MigrarIndiant\jonafcm\fcm-shared\target\fcm-shared-1.0.0.jar;E:\MigrarIndiant\jonafcm\fcm-shared\target\fcm-shared-1.0.0-sources.jar;C:\Users\jona\.m2\repository\org\projectlombok\lombok\1.18.18\lombok-1.18.18.jar;C:\Users\jona\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\jona\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\jona\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.0-M1\junit-platform-launcher-1.8.0-M1.jar;C:\Users\jona\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\jona\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0-M1\junit-platform-engine-1.8.0-M1.jar;C:\Users\jona\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\jona\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\jona\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0-M1\junit-jupiter-engine-5.8.0-M1.jar;C:\Users\jona\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0-M1\junit-jupiter-api-5.8.0-M1.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.4.20\kotlin-stdlib-jdk8-1.4.20.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.20\kotlin-stdlib-1.4.20.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.20\kotlin-stdlib-common-1.4.20.jar;C:\Users\jona\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\jona\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.4.20\kotlin-stdlib-jdk7-1.4.20.jar;C:\Users\jona\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.0-M1\junit-vintage-engine-5.8.0-M1.jar;C:\Users\jona\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\jona\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;C:\Users\jona\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\jona\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\jona\.m2\repository\org\mockito\mockito-all\2.0.2-beta\mockito-all-2.0.2-beta.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\jona"/>
+    <property name="user.language" value="es"/>
+    <property name="lsp.home" value="E:\graalvm-ce-java8-20.0.0\jre\tools\lsp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="propertyValue" value="false"/>
+    <property name="java.home" value="E:\graalvm-ce-java8-20.0.0\jre"/>
+    <property name="js.home" value="E:\graalvm-ce-java8-20.0.0\jre\languages\js"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\MigrarIndiant\jonafcm\fcm-http"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="coverage.home" value="E:\graalvm-ce-java8-20.0.0\jre\tools\coverage"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="chromeinspector.home" value="E:\graalvm-ce-java8-20.0.0\jre\tools\chromeinspector"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\jona\AppData\Local\Temp\surefire7475912427822261282\surefirebooter4683796338470759562.jar"/>
+    <property name="sun.boot.class.path" value="E:\graalvm-ce-java8-20.0.0\jre\lib\resources.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\rt.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\sunrsasign.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\jsse.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\jce.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\charsets.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\jfr.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\jvmci-services.jar;E:\graalvm-ce-java8-20.0.0\jre\classes;E:\graalvm-ce-java8-20.0.0\jre\lib\boot\graal-sdk.jar;E:\graalvm-ce-java8-20.0.0\jre\lib\boot\graaljs-scriptengine.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="profiler.home" value="E:\graalvm-ce-java8-20.0.0\jre\tools\profiler"/>
+    <property name="java.runtime.version" value="1.8.0_242-b06"/>
+    <property name="user.name" value="jona"/>
+    <property name="agentscript.home" value="E:\graalvm-ce-java8-20.0.0\jre\tools\agentscript"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="E:\graalvm-ce-java8-20.0.0\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM GraalVM CE 20.0.0"/>
+    <property name="maven.ext.class.path" value="E:\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="jvmci.Compiler" value="graal"/>
+    <property name="localRepository" value="C:\Users\jona\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\jona\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="user.dir" value="E:\MigrarIndiant\jonafcm\fcm-http"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\graalvm-ce-java8-20.0.0\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;C:\Users\jona\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\jona\AppData\Local\Programs\Python\Python38-32\;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;E:\AdoptOpenJDK\jdk-8.0.282.8-hotspot\bin;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.6.3\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\\bin;C:\Program Files\qemu;C:\Program Files\Multipass\bin;E:\apache-ant-1.10.8\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Utilities 1.6\;E:\nodejs\;E:\Amazon\AWSCLIV2\;C:\Program Files\Redis\;E:\spark\bin;E:\hadoop\bin;C:\Users\jona\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin;E:\JetBrains\PyCharm 2021.1.2\bin;C:\Users\jona\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jona\.dotnet\tools;C:\Users\jona\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.242-b06-jvmci-20.0-b02"/>
+    <property name="propertyName" value="log4j2.disable.jmx"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="org.graalvm.home" value="E:\graalvm-ce-java8-20.0.0"/>
+    <property name="java.ext.dirs" value="E:\graalvm-ce-java8-20.0.0\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="send1" classname="com.jofrantoba.fcm.http.TestHttpFcmConnection" time="1.875">
+    <system-out><![CDATA[2021-10-30 15:59:42,299 main DEBUG Apache Log4j Core 2.14.1 initializing configuration XmlConfiguration[location=E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml]
+2021-10-30 15:59:42,399 main DEBUG Installed 2 script engines
+2021-10-30 15:59:42,619 main DEBUG Oracle Nashorn version: 1.8.0_242, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, null, null, null, null, null, null], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2021-10-30 15:59:42,624 main DEBUG Graal.js version: 20.0.0, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [Graal.js, graal.js, Graal-js, graal-js, Graal.JS, Graal-JS, GraalJS, GraalJSPolyglot, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: com.oracle.truffle.js.scriptengine.GraalJSEngineFactory
+2021-10-30 15:59:42,624 main DEBUG PluginManager 'Core' found 122 plugins
+2021-10-30 15:59:42,625 main DEBUG PluginManager 'Level' found 0 plugins
+2021-10-30 15:59:42,629 main DEBUG PluginManager 'Lookup' found 16 plugins
+2021-10-30 15:59:42,630 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-10-30 15:59:42,639 main TRACE TypeConverterRegistry initializing.
+2021-10-30 15:59:42,640 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-10-30 15:59:42,649 main DEBUG PatternLayout$Builder(pattern="[%d{dd/MM/YYYY HH:mm:ss:SSS}][%p][%c] - %m%n", PatternSelector=null, Configuration(E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-10-30 15:59:42,650 main DEBUG PluginManager 'Converter' found 44 plugins
+2021-10-30 15:59:42,664 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-10-30 15:59:42,671 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout([%d{dd/MM/YYYY HH:mm:ss:SSS}][%p][%c] - %m%n), name="Console", Configuration(E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml), Filter=null, ={})
+2021-10-30 15:59:42,673 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-10-30 15:59:42,673 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-10-30 15:59:42,675 main DEBUG createAppenders(={Console})
+2021-10-30 15:59:42,675 main DEBUG Building Plugin[name=appender-ref, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-10-30 15:59:42,678 main DEBUG createAppenderRef(ref="Console", level="null", Filter=null)
+2021-10-30 15:59:42,678 main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-10-30 15:59:42,679 main DEBUG createLogger(additivity="null", level="DEBUG", includeLocation="null", ={Console}, ={}, Configuration(E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml), Filter=null)
+2021-10-30 15:59:42,680 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-10-30 15:59:42,681 main DEBUG createLoggers(={root})
+2021-10-30 15:59:42,682 main DEBUG Configuration XmlConfiguration[location=E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml] initialized
+2021-10-30 15:59:42,682 main DEBUG Starting configuration XmlConfiguration[location=E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml]
+2021-10-30 15:59:42,683 main DEBUG Log4j2 ConfigurationScheduler starting 1 threads
+2021-10-30 15:59:42,685 main DEBUG Started configuration XmlConfiguration[location=E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml] OK.
+2021-10-30 15:59:42,685 main TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@3ba9ad43...
+2021-10-30 15:59:42,686 main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2021-10-30 15:59:42,686 main TRACE DefaultConfiguration stopping root LoggerConfig.
+2021-10-30 15:59:42,686 main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2021-10-30 15:59:42,687 main TRACE DefaultConfiguration stopping remaining Appenders.
+2021-10-30 15:59:42,687 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-10-30 15:59:42,688 main DEBUG OutputStream closed
+2021-10-30 15:59:42,688 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-10-30 15:59:42,688 main DEBUG Appender DefaultConsole-1 stopped with status true
+2021-10-30 15:59:42,688 main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2021-10-30 15:59:42,689 main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2021-10-30 15:59:42,689 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3ba9ad43 OK
+2021-10-30 15:59:42,717 main TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@2b76ff4e
+2021-10-30 15:59:42,718 main TRACE Reregistering context (1/1): '3d4eac69' org.apache.logging.log4j.core.LoggerContext@7a1234bf
+2021-10-30 15:59:42,718 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69'
+2021-10-30 15:59:42,719 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=StatusLogger'
+2021-10-30 15:59:42,719 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=ContextSelector'
+2021-10-30 15:59:42,719 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=Loggers,name=*'
+2021-10-30 15:59:42,720 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=Appenders,name=*'
+2021-10-30 15:59:42,720 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=AsyncAppenders,name=*'
+2021-10-30 15:59:42,721 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=AsyncLoggerRingBuffer'
+2021-10-30 15:59:42,721 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=3d4eac69,component=Loggers,name=*,subtype=RingBuffer'
+2021-10-30 15:59:42,722 main DEBUG Registering MBean org.apache.logging.log4j2:type=3d4eac69
+2021-10-30 15:59:42,724 main DEBUG Registering MBean org.apache.logging.log4j2:type=3d4eac69,component=StatusLogger
+2021-10-30 15:59:42,725 main DEBUG Registering MBean org.apache.logging.log4j2:type=3d4eac69,component=ContextSelector
+2021-10-30 15:59:42,727 main DEBUG Registering MBean org.apache.logging.log4j2:type=3d4eac69,component=Loggers,name=
+2021-10-30 15:59:42,728 main DEBUG Registering MBean org.apache.logging.log4j2:type=3d4eac69,component=Appenders,name=Console
+2021-10-30 15:59:42,730 main TRACE Using default SystemClock for timestamps.
+2021-10-30 15:59:42,730 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2021-10-30 15:59:42,730 main TRACE Using DummyNanoClock for nanosecond timestamps.
+2021-10-30 15:59:42,730 main DEBUG Reconfiguration complete for context[name=3d4eac69] at URI E:\MigrarIndiant\jonafcm\fcm-http\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@7a1234bf) with optional ClassLoader: null
+2021-10-30 15:59:42,731 main DEBUG Shutdown hook enabled. Registering a new one.
+2021-10-30 15:59:42,732 main DEBUG LoggerContext[name=3d4eac69, org.apache.logging.log4j.core.LoggerContext@7a1234bf] started OK.
+{"notification":{"color":"#ffffff","sound":"default","title":"INDIANT","body":"HOLA MUNDO"},"data":{"idNotification":121354654},"registration_ids":["fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc","eS1lnW8_D7A:APA91bGKBvdP1ZT26eFcHRXKYD1pny1oUdegL95BsBdPPIGoe0IL4EJKCBZfscsfrRMsxNUjaixvFhn9vayRQYmVFiiZQlOmOKFyRfSrUgh8kldnP1kF9TfJorsj0l8AifXzQKFFomQH"],"restricted_package_name":"com.indiant","priority":10}
+[30/10/2021 15:59:44:589][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:595][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:596][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:596][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:596][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:596][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:596][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:597][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:597][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:597][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:597][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:598][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:598][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:598][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:598][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:598][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:599][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:599][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:599][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:fsOJ_pDTlKk:APA91bGM-8FhUpBTxl2TSh0GkVNuWkRXGoDCq953yZyUeltUzF2BUhpvwvzDzktSd-s8E5oh7g3VXNNdebHvRElpo_OY9KGKLYmOq1QoGnisorhxm1G2FWk2VVgX5xk1j3bBnbc-r5Jc
+[30/10/2021 15:59:44:599][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:599][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:600][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - ID:eS1lnW8_D7A:APA91bGKBvdP1ZT26eFcHRXKYD1pny1oUdegL95BsBdPPIGoe0IL4EJKCBZfscsfrRMsxNUjaixvFhn9vayRQYmVFiiZQlOmOKFyRfSrUgh8kldnP1kF9TfJorsj0l8AifXzQKFFomQH
+[30/10/2021 15:59:44:600][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Status Message:NotRegistered
+[30/10/2021 15:59:44:600][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - Is Correct:false
+[30/10/2021 15:59:44:600][INFO][com.jofrantoba.fcm.http.TestHttpFcmConnection] - DataResponse:DataResponse(multicast_id=6536850847437652531, success=0, failure=8, canonical_ids=0, results=[Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null), Result(message_id=null, error=NotRegistered, registration_id=null)], message_id=null)
+]]></system-out>
+  </testcase>
+</testsuite>

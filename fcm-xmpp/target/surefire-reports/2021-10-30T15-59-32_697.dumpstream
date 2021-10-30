@@ -1,0 +1,4 @@
+# Created at 2021-10-30T15:59:49.336
+Boot Manifest-JAR contains absolute paths in classpath 'E:\MigrarIndiant\jonafcm\fcm-xmpp\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
